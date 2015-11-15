@@ -1,0 +1,18 @@
+{
+  "name": "jasmine-kahlan",
+  "description": "Kahlan's matchers for jasmine.",
+  "version": "1.0.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/crysalead-js/jasmine-kahlan.git"
+  },
+  "scripts": {
+    "test": "jasmine",
+    "dist": "browserify index.js > jasmine-kahlan.js"
+  },
+  "devDependencies": {
+    "browserify": "^12.0.1",
+    "jasmine": "^2.3.2"
+  }
+}
