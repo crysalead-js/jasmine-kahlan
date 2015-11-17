@@ -21,6 +21,8 @@ require('jasmine-kahlan');
 
 browser:
 ```js
-<script src="vendor/mocha/mocha.js" type="text/javascript"></script>
+<script src="vendor/jasmine/lib/jasmine-core/jasmine.js" type="text/javascript"></script>
+<script src="vendor/jasmine/lib/jasmine-core/jasmine-html.js" type="text/javascript"></script>
+<script src="vendor/jasmine/lib/jasmine-core/boot.js" type="text/javascript"></script>
 <script src="vendor/jasmine-kahlan/jasmine-kahlan.js" type="text/javascript"></script>
 ```
