@@ -55,9 +55,16 @@ function toBeA(util) {
         if (typeof value === 'boolean') {
           return 'boolean';
         }
+        if (typeof value === 'function') {
+          return 'function';
+        }
         if (typeof value === 'number') {
           return value % 1 === 0 ? 'integer' : 'double';
         }
+        if (typeof value === 'symbol') {
+          return 'symbol';
+        }
+        return 'undefined';
       }
 
       return {
